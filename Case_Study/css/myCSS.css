@@ -1,3 +1,206 @@
- {
-    font-family: 'Mukta', sans-serif;
+/*-------------------------------------
+
+    THIS IS MY CSS FILE FOR CASE STUDY
+
+--------------------------------------*/
+
+/*-------------------------------------
+
+    WEBSITE COLOUR SCHEME
+
+--------------------------------------*/
+
+
+/*Primary colour: rgba(199, 168, 255, 1);
+Secondary colour: rgba(44, 31, 61, 1);
+Third colour: rgba(55, 42, 71, 1);
+Fourth colour: #444; for main content text and headings*/
+
+
+/*-------------------------------------
+
+    MOBILE DEFAULT STYLES - GLOBAL STYLES
+
+--------------------------------------*/
+
+
+/* Prevent adjustments of font size after orientation change in IE on Windows Phone and in IOS */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
+
+/* Apply a natural box model layout to all elements */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*-------------------------------------
+
+    HOME STYLES
+
+--------------------------------------*/
+
+img, video {
+    width:100%;
+}
+
+body {
+    font-family: 'Mukta', sans-serif';
+    font-size: 16px;
+    color: #444;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.container {
+    width: 80%;
+    height: 100%;
+    /* this will center the content in the middle of the page*/
+    margin: 100px auto 100px auto;
+}
+
+.homeBgImage {
+    position: relative;
+    background-image: url(../img/trainerHomePage.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-bottom: 15px solid rgba(53, 38, 80, 0.8);
+    background-attachment: fixed;
+}
+
+.logoC {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 45px;
+    z-index: 130;
+    position: fixed;
+}
+
+.cartIcon {
+    position: absolute;
+    top: 15px;
+    left: 45vw;
+    z-index: 115;
+    position: fixed;
+}
+
+.navC {
+    color: white;
+    height: auto;
+    width: 100%;
+    background-color: rgba(44, 31, 61, 1);
+    position: fixed;
+    border-bottom: 2px solid rgba(194, 166, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------
+
+    MOBILE STYLES - 568px SCREEN RESOLUTION
+
+--------------------------------------*/
+
+@media screen and (min-width: 568px) {
+
+
+
+}
+
+
+
+
+
+
+
+/*-------------------------------------
+
+    TABLET STYLES - 768px SCREEN RESOLUTION
+
+--------------------------------------*/
+
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------
+
+    LAPTOPS STYLES - 1024px SCREEN RESOLUTION
+
+--------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------
+
+    LAPTOPS/DESKTOPS STYLES - 1280px SCREEN RESOLUTION
+
+--------------------------------------*/
+
+@media screen and (min-width: 1280px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
